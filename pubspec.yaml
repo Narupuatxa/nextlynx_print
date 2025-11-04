@@ -1,0 +1,47 @@
+name: reprografia_nextlynx
+description: A new Flutter project.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  supabase_flutter: ^2.0.0  # Mantida a versão mais recente compatível
+  provider: ^6.1.2  # Mantida a versão mais recente compatível
+  google_fonts: ^6.2.1  # Mantida a versão mais recente compatível
+  fl_chart: ^1.1.1  # Atualizado de 0.68.0 para 1.1.1
+  pdf: ^3.11.0  # Mantida a versão mais recente
+  printing: ^5.13.3  # Atualizado de 5.0.0 para 5.13.3
+  syncfusion_flutter_xlsio: ^31.2.3  # Atualizado de 26.2.14 para 31.2.3
+  intl: ^0.20.2  # Atualizado de 0.19.0 para 0.20.2
+  uuid: ^4.5.1  # Atualizado de 4.0.0 para 4.5.1
+  fluttertoast: ^9.0.0  # Atualizado de 8.2.14 para 9.0.0
+  universal_html: ^2.2.4  # Mantida a versão mais recente compatível
+  image_picker: ^1.0.7
+  path: ^1.8.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0  # Atualizado de 4.0.0 para 6.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/logo.png
+    - assets/images/reprografia.jpg
+    - assets/images/design_grafico.jpg
+    - assets/images/estampagem.png
+    - assets/images/despesas.png
+    - assets/images/dashboard/services.jpg
+    - assets/images/dashboard/sales.png
+    - assets/images/dashboard/expenses.jpg
+    - assets/images/dashboard/customers.jpg
+    - assets/images/dashboard/reports.jpg
+    - assets/images/dashboard/admin.jpg
+    - assets/images/default_avatar.png
